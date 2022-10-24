@@ -43,7 +43,7 @@ const products_reducer = (state, action) => {
     return {
       ...state,
       single_product_loading: true,
-      single_product_error: true,
+      single_product_error: false,
     };
   }
 
